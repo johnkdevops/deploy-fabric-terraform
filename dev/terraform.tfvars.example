@@ -1,0 +1,12 @@
+# Authentication
+client_id       = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Azure AD App (SPN) Application ID
+client_secret   = "your-super-secret-spn-secret"          # Use secure secret storage (like Azure Key Vault or pipeline secrets)
+tenant_id       = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Your Azure AD tenant ID
+
+# Fabric Deployment Configuration
+resource_group_name  = "NYCTaxiRG"                                        # Existing resource group
+fabric_capacity_id   = "/subscriptions/xxxx.../Microsoft.Fabric/capacities/nyctaxifabricf2capacity"
+
+# Fabric Resources
+workspace_name       = "NYCTaxiWorkspace"
+lakehouse_name       = "NYCTaxiLakehouse"

@@ -1,0 +1,8 @@
+tenant_id             = ""
+subscription_id       = ""
+client_id             = ""
+client_secret         = ""
+fabric_capacity_id    = ""
+fabric_capacity_uuid  = ""
+prefix                = "nyctaxi"
+resource_group_name   = "nyctaxi_rg"

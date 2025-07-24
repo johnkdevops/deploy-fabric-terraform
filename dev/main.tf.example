@@ -1,0 +1,16 @@
+data "azurerm_resource_group" "fabric_rg" {
+  name = var.resource_group_name
+}
+
+resource "fabric_workspace" "workspace" {
+  display_name = "${var.prefix}_workspace"
+  capacity_id  = var.fabric_capacity_uuid
+}
+
+resource "fabric_lakehouse" "lakehouse" {
+  display_name = "${var.prefix}_lakehouse"
+  workspace_id = fabric_workspace.workspace.id
+}
+
+
+

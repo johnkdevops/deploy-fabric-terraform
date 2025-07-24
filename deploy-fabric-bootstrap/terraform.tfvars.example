@@ -1,0 +1,11 @@
+tenant_id            = ""
+subscription_id      = ""
+location             = ""
+admin_email          = ""                                  # Email for Fabric admin
+prefix               = ""                                  # Prefix for all Fabric resources
+fabric_capacity_sku  = "F2"                                # or F64/F128 depending on usage
+storage_account_name = "lakeadls"
+container_name       = "parquet"
+random_suffix_length = 4                                   # Length of random suffix for resource names
+admin_user_object_id = ""                                  # Object ID of the admin user
+spn_object_id        = ""

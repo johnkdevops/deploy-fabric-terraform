@@ -1,0 +1,8 @@
+resource_group_name  = "NYCTaxiRG"
+subscription_id      = ""
+fabric_capacity_id   = ""
+fabric_capacity_name = ""
+client_certificate   = "...pfx"
+client_password      = ""
+client_id            = ""
+tenant_id            = ""
